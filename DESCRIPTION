@@ -1,0 +1,23 @@
+Package: gaodemap
+Type: Package
+Title: A package for spatial visualization with GaoDe map
+Version: 0.1.0
+Date: 2019-08-24
+Encoding: UTF-8
+Author: yalei Du <yaleidu@163.com>,Jean Ye <1793893070@qq.com>
+Maintainer: Jean Ye <1793893070@qq.com>
+Description: Just like ggmap, but get map from GaoDe instead of google or openstreet
+Depends:
+    R (>= 3.1.1)
+Imports:
+    ggmap,
+    RgoogleMaps,
+    png,
+    RCurl,
+    rjson,
+    XML,
+    stringr,
+    parallel
+License: GPL-2
+LazyData: true
+RoxygenNote: 6.1.1
